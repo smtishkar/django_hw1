@@ -1,0 +1,358 @@
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:29:07,191 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :               hwapp.views] - 2024-01-17 22:29:17,018 : index @ 0030: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 22:29:17,023 : log_message @ 0212: "GET / HTTP/1.1" 200 1023
+[INFO    :               hwapp.views] - 2024-01-17 22:31:40,922 : index @ 0030: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 22:31:40,925 : log_message @ 0212: "GET / HTTP/1.1" 200 1023
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:32:14,957 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:32:16,806 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:32:19,255 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:32:20,652 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:32:46,394 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:32:47,830 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:32:49,703 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:32:51,766 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:36:17,098 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:36:18,687 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:36:20,727 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:36:22,412 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :               hwapp.views] - 2024-01-17 22:36:23,775 : index @ 0029: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 22:36:23,779 : log_message @ 0212: "GET / HTTP/1.1" 200 997
+[INFO    :               hwapp.views] - 2024-01-17 22:36:39,161 : index @ 0029: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 22:36:39,163 : log_message @ 0212: "GET / HTTP/1.1" 200 997
+[INFO    :               hwapp.views] - 2024-01-17 22:36:39,769 : index @ 0029: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 22:36:39,771 : log_message @ 0212: "GET / HTTP/1.1" 200 997
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:37:29,530 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:37:30,932 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:37:40,468 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:37:41,808 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:37:52,403 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:37:53,827 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:38:11,757 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:38:13,829 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:38:24,737 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:38:26,294 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:39:18,374 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:39:20,376 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:39:45,905 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :               hwapp.views] - 2024-01-17 22:39:51,729 : index @ 0032: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 22:39:51,733 : log_message @ 0212: "GET / HTTP/1.1" 200 1227
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:41:37,467 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:41:48,034 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:41:50,203 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :               hwapp.views] - 2024-01-17 22:41:52,190 : index @ 0032: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 22:41:52,193 : log_message @ 0212: "GET / HTTP/1.1" 200 1239
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:42:00,238 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:42:01,666 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :               hwapp.views] - 2024-01-17 22:42:03,170 : index @ 0032: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 22:42:03,175 : log_message @ 0212: "GET / HTTP/1.1" 200 1239
+[INFO    :               hwapp.views] - 2024-01-17 22:42:03,514 : index @ 0032: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 22:42:03,515 : log_message @ 0212: "GET / HTTP/1.1" 200 1239
+[INFO    :               hwapp.views] - 2024-01-17 22:42:04,142 : index @ 0032: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 22:42:04,145 : log_message @ 0212: "GET / HTTP/1.1" 200 1239
+[INFO    :               hwapp.views] - 2024-01-17 22:42:04,625 : index @ 0032: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 22:42:04,628 : log_message @ 0212: "GET / HTTP/1.1" 200 1239
+[INFO    :               hwapp.views] - 2024-01-17 22:42:04,923 : index @ 0032: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 22:42:04,925 : log_message @ 0212: "GET / HTTP/1.1" 200 1239
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:42:11,360 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :               hwapp.views] - 2024-01-17 22:42:13,067 : index @ 0032: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 22:42:13,070 : log_message @ 0212: "GET / HTTP/1.1" 200 1239
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:42:20,117 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:42:21,632 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:43:15,563 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:43:16,970 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:43:18,787 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:43:20,772 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :               hwapp.views] - 2024-01-17 22:43:22,099 : index @ 0034: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 22:43:22,103 : log_message @ 0212: "GET / HTTP/1.1" 200 1342
+[INFO    :               hwapp.views] - 2024-01-17 22:43:22,274 : index @ 0034: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 22:43:22,277 : log_message @ 0212: "GET / HTTP/1.1" 200 1342
+[INFO    :               hwapp.views] - 2024-01-17 22:43:22,995 : index @ 0034: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 22:43:22,998 : log_message @ 0212: "GET / HTTP/1.1" 200 1342
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:43:28,363 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:43:30,658 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :               hwapp.views] - 2024-01-17 22:43:36,490 : index @ 0034: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 22:43:36,496 : log_message @ 0212: "GET / HTTP/1.1" 200 1342
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:44:29,996 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:44:31,489 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:44:33,231 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:44:34,688 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :               hwapp.views] - 2024-01-17 22:44:36,057 : index @ 0035: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 22:44:36,061 : log_message @ 0212: "GET / HTTP/1.1" 200 1468
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:47:07,768 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:47:09,264 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:47:14,258 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:47:16,114 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:47:20,154 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:47:21,650 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:47:33,150 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:47:35,099 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:47:58,589 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:48:00,024 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:48:18,100 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:48:19,481 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:48:22,446 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:48:24,521 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:48:47,090 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:48:48,547 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:48:55,714 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:48:57,200 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:48:58,928 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:49:00,248 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:49:02,303 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:49:03,699 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:49:10,805 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:49:12,242 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:49:17,384 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:49:18,790 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:49:20,903 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:49:22,727 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:49:27,270 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :               hwapp.views] - 2024-01-17 22:49:28,385 : index @ 0031: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 22:49:28,389 : log_message @ 0212: "GET / HTTP/1.1" 200 1037
+[INFO    :               hwapp.views] - 2024-01-17 22:49:28,919 : index @ 0031: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 22:49:28,921 : log_message @ 0212: "GET / HTTP/1.1" 200 1037
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:49:41,874 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:49:44,039 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:50:12,431 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:50:14,261 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:50:16,076 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:50:17,711 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:50:19,443 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:50:20,894 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :               hwapp.views] - 2024-01-17 22:50:24,011 : index @ 0030: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 22:50:24,015 : log_message @ 0212: "GET / HTTP/1.1" 200 939
+[INFO    :               hwapp.views] - 2024-01-17 22:50:24,849 : index @ 0030: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 22:50:24,852 : log_message @ 0212: "GET / HTTP/1.1" 200 939
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:51:28,484 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:51:29,805 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:51:34,806 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:51:36,447 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :               hwapp.views] - 2024-01-17 22:51:39,232 : index @ 0031: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 22:51:39,239 : log_message @ 0212: "GET / HTTP/1.1" 200 986
+[INFO    :               hwapp.views] - 2024-01-17 22:51:40,635 : index @ 0031: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 22:51:40,638 : log_message @ 0212: "GET / HTTP/1.1" 200 986
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:53:03,983 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:53:05,947 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :               hwapp.views] - 2024-01-17 22:53:10,071 : index @ 0029: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 22:53:10,075 : log_message @ 0212: "GET / HTTP/1.1" 200 964
+[INFO    :               hwapp.views] - 2024-01-17 22:53:11,744 : index @ 0029: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 22:53:11,746 : log_message @ 0212: "GET / HTTP/1.1" 200 964
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:53:18,208 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:53:19,768 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :               hwapp.views] - 2024-01-17 22:53:21,048 : index @ 0029: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 22:53:21,052 : log_message @ 0212: "GET / HTTP/1.1" 200 965
+[INFO    :               hwapp.views] - 2024-01-17 22:53:21,668 : index @ 0029: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 22:53:21,670 : log_message @ 0212: "GET / HTTP/1.1" 200 965
+[WARNING :            django.request] - 2024-01-17 22:53:22,947 : log_response @ 0241: Not Found: /cats@mai.ru
+[WARNING :             django.server] - 2024-01-17 22:53:22,949 : log_message @ 0212: "GET /cats@mai.ru HTTP/1.1" 404 2281
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:53:38,000 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:53:39,890 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :               hwapp.views] - 2024-01-17 22:53:41,218 : index @ 0029: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 22:53:41,222 : log_message @ 0212: "GET / HTTP/1.1" 200 1007
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:53:55,929 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:53:57,356 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:54:11,034 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:54:12,563 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:54:17,940 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:54:19,252 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:54:23,237 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:54:25,007 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:54:27,050 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:54:28,936 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :               hwapp.views] - 2024-01-17 22:54:32,237 : index @ 0029: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 22:54:32,240 : log_message @ 0212: "GET / HTTP/1.1" 200 1014
+[INFO    :               hwapp.views] - 2024-01-17 22:54:33,851 : index @ 0029: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 22:54:33,855 : log_message @ 0212: "GET / HTTP/1.1" 200 1014
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:54:51,872 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:54:53,618 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:54:55,524 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:54:56,835 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:55:01,759 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:55:03,388 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:55:08,480 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:55:09,879 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:55:17,259 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:55:19,443 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:55:24,828 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:55:26,182 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:55:28,954 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:55:30,427 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:55:33,455 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:55:35,697 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:55:39,688 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:55:42,356 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :               hwapp.views] - 2024-01-17 22:55:44,612 : index @ 0027: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 22:55:44,615 : log_message @ 0212: "GET / HTTP/1.1" 200 977
+[INFO    :               hwapp.views] - 2024-01-17 22:55:45,215 : index @ 0027: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 22:55:45,219 : log_message @ 0212: "GET / HTTP/1.1" 200 977
+[INFO    :               hwapp.views] - 2024-01-17 22:58:21,441 : index @ 0027: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 22:58:21,443 : log_message @ 0212: "GET / HTTP/1.1" 200 977
+[INFO    :               hwapp.views] - 2024-01-17 22:58:27,276 : index @ 0027: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 22:58:27,279 : log_message @ 0212: "GET / HTTP/1.1" 200 977
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:58:41,239 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:58:42,887 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:59:45,556 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:59:47,051 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:59:48,904 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:59:50,166 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:59:58,399 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 22:59:59,733 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:00:34,208 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:00:35,917 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:00:37,861 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:00:39,205 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:00:40,613 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:00:42,131 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:00:46,649 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:00:48,683 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:00:52,341 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:00:53,658 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:00:56,056 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:00:57,544 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:01:03,336 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:01:04,826 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:01:13,882 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:01:15,514 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:01:17,012 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:01:18,756 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:01:21,240 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:01:22,651 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:01:28,540 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:01:30,778 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:01:46,176 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:01:47,488 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:01:51,047 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:01:52,806 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:02:16,538 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\homework_project\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:02:18,067 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:02:20,645 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\homework_project\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:02:22,346 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:02:23,786 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\homework_project\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:02:25,151 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:02:31,904 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\homework_project\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:02:33,251 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:02:35,782 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\homework_project\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:02:37,113 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:02:47,047 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\homework_project\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:02:48,730 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:02:55,915 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\homework_project\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:02:57,344 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:03:08,300 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\homework_project\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:03:09,908 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:03:14,515 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\homework_project\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:03:16,073 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:04:44,032 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:05:06,484 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :               hwapp.views] - 2024-01-17 23:05:11,466 : index @ 0027: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 23:05:11,469 : log_message @ 0212: "GET / HTTP/1.1" 200 977
+[INFO    :               hwapp.views] - 2024-01-17 23:05:12,601 : index @ 0027: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 23:05:12,604 : log_message @ 0212: "GET / HTTP/1.1" 200 977
+[INFO    :               hwapp.views] - 2024-01-17 23:05:13,861 : index @ 0027: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 23:05:13,862 : log_message @ 0212: "GET / HTTP/1.1" 200 977
+[INFO    :               hwapp.views] - 2024-01-17 23:05:15,181 : index @ 0027: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 23:05:15,182 : log_message @ 0212: "GET / HTTP/1.1" 200 977
+[INFO    :               hwapp.views] - 2024-01-17 23:05:17,149 : index @ 0027: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 23:05:17,150 : log_message @ 0212: "GET / HTTP/1.1" 200 977
+[INFO    :               hwapp.views] - 2024-01-17 23:05:18,029 : index @ 0027: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 23:05:18,030 : log_message @ 0212: "GET / HTTP/1.1" 200 977
+[INFO    :               hwapp.views] - 2024-01-17 23:05:19,094 : index @ 0027: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 23:05:19,096 : log_message @ 0212: "GET / HTTP/1.1" 200 977
+[INFO    :               hwapp.views] - 2024-01-17 23:05:19,686 : index @ 0027: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 23:05:19,687 : log_message @ 0212: "GET / HTTP/1.1" 200 977
+[WARNING :            django.request] - 2024-01-17 23:05:20,869 : log_response @ 0241: Not Found: /cats@mai.ru
+[WARNING :             django.server] - 2024-01-17 23:05:20,870 : log_message @ 0212: "GET /cats@mai.ru HTTP/1.1" 404 2463
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:06:58,234 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:06:59,755 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:07:08,001 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:07:09,280 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :               hwapp.views] - 2024-01-17 23:07:12,414 : index @ 0027: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 23:07:12,418 : log_message @ 0212: "GET / HTTP/1.1" 200 977
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:07:21,007 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\homework_project\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:07:22,551 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:07:37,012 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:07:38,510 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:09:12,939 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:09:15,221 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:12:30,350 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:12:32,344 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:12:35,046 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:12:36,372 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:12:39,080 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:12:40,470 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:12:45,198 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:12:46,884 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:12:50,418 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:12:52,481 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:12:56,086 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:12:58,332 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:13:37,452 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:13:39,473 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:13:52,693 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:14:04,440 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :               hwapp.views] - 2024-01-17 23:14:07,661 : index @ 0027: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 23:14:07,665 : log_message @ 0212: "GET / HTTP/1.1" 200 977
+[INFO    :               hwapp.views] - 2024-01-17 23:14:08,705 : index @ 0027: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 23:14:08,708 : log_message @ 0212: "GET / HTTP/1.1" 200 977
+[WARNING :            django.request] - 2024-01-17 23:14:12,897 : log_response @ 0241: Not Found: /about/
+[WARNING :             django.server] - 2024-01-17 23:14:12,899 : log_message @ 0212: "GET /about/ HTTP/1.1" 404 2440
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:14:54,752 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:15:03,803 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[WARNING :            django.request] - 2024-01-17 23:15:06,225 : log_response @ 0241: Not Found: /about/
+[WARNING :             django.server] - 2024-01-17 23:15:06,227 : log_message @ 0212: "GET /about/ HTTP/1.1" 404 2432
+[WARNING :            django.request] - 2024-01-17 23:15:07,272 : log_response @ 0241: Not Found: /about/
+[WARNING :             django.server] - 2024-01-17 23:15:07,275 : log_message @ 0212: "GET /about/ HTTP/1.1" 404 2432
+[INFO    :               hwapp.views] - 2024-01-17 23:15:10,754 : index @ 0027: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 23:15:10,756 : log_message @ 0212: "GET / HTTP/1.1" 200 977
+[INFO    :               hwapp.views] - 2024-01-17 23:15:15,061 : about_company @ 0042: Страница "О Компании" успешно открыта
+[INFO    :             django.server] - 2024-01-17 23:15:15,063 : log_message @ 0212: "GET /about HTTP/1.1" 200 46
+[WARNING :            django.request] - 2024-01-17 23:15:19,076 : log_response @ 0241: Not Found: /about/
+[WARNING :             django.server] - 2024-01-17 23:15:19,078 : log_message @ 0212: "GET /about/ HTTP/1.1" 404 2432
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:15:30,829 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:15:33,410 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[WARNING :            django.request] - 2024-01-17 23:15:37,172 : log_response @ 0241: Not Found: /about/
+[WARNING :             django.server] - 2024-01-17 23:15:37,174 : log_message @ 0212: "GET /about/ HTTP/1.1" 404 2432
+[WARNING :            django.request] - 2024-01-17 23:15:37,695 : log_response @ 0241: Not Found: /about/
+[WARNING :             django.server] - 2024-01-17 23:15:37,697 : log_message @ 0212: "GET /about/ HTTP/1.1" 404 2432
+[WARNING :            django.request] - 2024-01-17 23:15:38,010 : log_response @ 0241: Not Found: /about/
+[WARNING :             django.server] - 2024-01-17 23:15:38,012 : log_message @ 0212: "GET /about/ HTTP/1.1" 404 2432
+[WARNING :            django.request] - 2024-01-17 23:15:38,276 : log_response @ 0241: Not Found: /about/
+[WARNING :             django.server] - 2024-01-17 23:15:38,280 : log_message @ 0212: "GET /about/ HTTP/1.1" 404 2432
+[WARNING :            django.request] - 2024-01-17 23:15:38,456 : log_response @ 0241: Not Found: /about/
+[WARNING :             django.server] - 2024-01-17 23:15:38,459 : log_message @ 0212: "GET /about/ HTTP/1.1" 404 2432
+[WARNING :            django.request] - 2024-01-17 23:15:38,653 : log_response @ 0241: Not Found: /about/
+[WARNING :             django.server] - 2024-01-17 23:15:38,656 : log_message @ 0212: "GET /about/ HTTP/1.1" 404 2432
+[WARNING :            django.request] - 2024-01-17 23:15:38,856 : log_response @ 0241: Not Found: /about/
+[WARNING :             django.server] - 2024-01-17 23:15:38,859 : log_message @ 0212: "GET /about/ HTTP/1.1" 404 2432
+[WARNING :            django.request] - 2024-01-17 23:15:39,063 : log_response @ 0241: Not Found: /about/
+[WARNING :             django.server] - 2024-01-17 23:15:39,066 : log_message @ 0212: "GET /about/ HTTP/1.1" 404 2432
+[WARNING :            django.request] - 2024-01-17 23:15:39,263 : log_response @ 0241: Not Found: /about/
+[WARNING :             django.server] - 2024-01-17 23:15:39,267 : log_message @ 0212: "GET /about/ HTTP/1.1" 404 2432
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:17:03,576 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:17:05,465 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :               hwapp.views] - 2024-01-17 23:17:07,668 : about_company @ 0042: Страница "О Компании" успешно открыта
+[INFO    :             django.server] - 2024-01-17 23:17:07,672 : log_message @ 0212: "GET /about/ HTTP/1.1" 200 46
+[INFO    :               hwapp.views] - 2024-01-17 23:17:08,317 : about_company @ 0042: Страница "О Компании" успешно открыта
+[INFO    :             django.server] - 2024-01-17 23:17:08,320 : log_message @ 0212: "GET /about/ HTTP/1.1" 200 46
+[INFO    :               hwapp.views] - 2024-01-17 23:17:10,838 : about_company @ 0042: Страница "О Компании" успешно открыта
+[INFO    :             django.server] - 2024-01-17 23:17:10,841 : log_message @ 0212: "GET /about/ HTTP/1.1" 200 46
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:17:38,098 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:17:39,602 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:17:49,122 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:17:51,324 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :               hwapp.views] - 2024-01-17 23:17:51,739 : about_company @ 0042: Страница "О Компании" успешно открыта
+[INFO    :             django.server] - 2024-01-17 23:17:51,742 : log_message @ 0212: "GET /about/ HTTP/1.1" 200 365
+[INFO    :               hwapp.views] - 2024-01-17 23:17:55,435 : about_company @ 0042: Страница "О Компании" успешно открыта
+[INFO    :             django.server] - 2024-01-17 23:17:55,437 : log_message @ 0212: "GET /about/ HTTP/1.1" 200 365
+[INFO    :               hwapp.views] - 2024-01-17 23:17:56,508 : about_company @ 0042: Страница "О Компании" успешно открыта
+[INFO    :             django.server] - 2024-01-17 23:17:56,510 : log_message @ 0212: "GET /about/ HTTP/1.1" 200 365
+[INFO    :               hwapp.views] - 2024-01-17 23:17:57,434 : about_company @ 0042: Страница "О Компании" успешно открыта
+[INFO    :             django.server] - 2024-01-17 23:17:57,438 : log_message @ 0212: "GET /about/ HTTP/1.1" 200 365
+[INFO    :               hwapp.views] - 2024-01-17 23:18:00,990 : index @ 0027: Страница "Главная" успешно открыта
+[INFO    :             django.server] - 2024-01-17 23:18:00,992 : log_message @ 0212: "GET / HTTP/1.1" 200 977
+[INFO    :             django.server] - 2024-01-17 23:18:06,463 : log_message @ 0212: "GET /about HTTP/1.1" 301 0
+[INFO    :               hwapp.views] - 2024-01-17 23:18:06,471 : about_company @ 0042: Страница "О Компании" успешно открыта
+[INFO    :             django.server] - 2024-01-17 23:18:06,475 : log_message @ 0212: "GET /about/ HTTP/1.1" 200 365
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:18:14,896 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:18:16,335 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:18:22,472 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 23:18:24,433 : run_with_reloader @ 0668: Watching for file changes with StatReloader
