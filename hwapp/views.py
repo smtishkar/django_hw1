@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 import logging
+from .models import Customer, Thing, Order
 
 logger = logging.getLogger(__name__)     
 
@@ -41,3 +42,19 @@ def about_company(request):
         """
     logger.info(f'Страница "О Компании" успешно открыта')
     return HttpResponse(about_company_page)
+
+def customers_view(request):
+    customers = Customer.objects.all()
+    res_str = '<br>'.join([str(customer) for customer in customers])
+    return HttpResponse(res_str)
+
+
+def things_view(request):
+    things = Thing.objects.all()
+    res_str = '<br>'.join([str(thing) for thing in things])
+    return HttpResponse(res_str)
+
+def orders_view(request):
+    orders = Order.objects.all()
+    res_str = '<br>'.join([str(order) for order in orders])
+    return HttpResponse(res_str)

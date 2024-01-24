@@ -5,4 +5,7 @@ import hwapp.views as views
 urlpatterns = [
     path('',views.index, name='index'),
     path('about/', views.about_company, name='about'),
+    path('customers', views.customers_view, name='customers'),
+    path('things', views.things_view, name='things'),
+    path('orders', views.orders_view, name='orders'),
 ]
