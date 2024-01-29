@@ -1,7 +1,9 @@
+from datetime import timedelta
 from django.shortcuts import render
 from django.http import HttpResponse
 import logging
 from .models import Customer, Thing, Order
+from datetime import datetime as dt, timedelta
 
 logger = logging.getLogger(__name__)     
 
@@ -45,8 +47,13 @@ def about_company(request):
 
 def customers_view(request):
     customers = Customer.objects.all()
-    res_str = '<br>'.join([str(customer) for customer in customers])
-    return HttpResponse(res_str)
+    context = {
+        'customers': customers
+    }
+    return render(request, 'hwapp/customers.html', context=context)
+    # res_str = '<br>'.join([str(customer) for customer in customers])
+    # return HttpResponse(res_str)
+
 
 
 def things_view(request):
@@ -58,3 +65,33 @@ def orders_view(request):
     orders = Order.objects.all()
     res_str = '<br>'.join([str(order) for order in orders])
     return HttpResponse(res_str)
+
+
+def customer_orders_view(request, customer_id: int,filter_days: int):
+    # filter_days = 2
+    # period = '2024-01-29 18:40:00.517886+00:00' 
+    # things = {}
+    things = []
+    user = Customer.objects.filter(pk=customer_id).first()
+    # orders = Order.objects.filter(customer=user).all()
+    # date_low_lim = (dt.now() - timedelta(filter_days-1)).strftime("%Y-%m-%d")
+    date_low_lim = (dt.now() - timedelta(filter_days))
+    # print(date_low_lim)
+    # print(dt.now())
+    # print(timedelta(filter_days-1))
+    orders = Order.objects.filter(customer=user).filter(order_date__gt=date_low_lim).order_by('order_date')
+    context ={
+        'user': user, 
+        'orders': orders, 
+        'things': things
+    }
+    for order in orders:
+        # things[order.id] = order.thing.thing_name
+        things.append(order.thing.thing_name)
+        print(order.order_date)
+        print(things)
+        print(order.thing.thing_name)
+        # things = order.thing
+        # things[order.id] = str(order.thing.thing_name).replace('<QuerySet [<', '').replace('>]>', '').split('>, <')
+
+    return render(request, 'hwapp/customer_orders.html', context=context)

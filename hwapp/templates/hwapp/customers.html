@@ -1,0 +1,11 @@
+{% extends 'hwapp/base.html' %}
+{% block title %} Клиенты {% endblock %}
+
+
+{% block content %}
+<h1>список клиентов</h1> <br>
+{% for customer in customers %}
+    <p>id: {{ customer.id }}    наименование: {{ customer.name }} Email: {{ customer.email }} телефон: {{ customer.tel }} адрес: {{ customer.address}}</p>
+
+{%  endfor %}
+{% endblock %}
