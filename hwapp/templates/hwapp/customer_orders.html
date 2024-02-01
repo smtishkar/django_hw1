@@ -10,13 +10,6 @@
             <p>Дата создания: {{ order.order_date }}</p>
             <p>Общая стоимость: {{ order.sum }}</p>
             <h3>Товары: {{ order.thing.thing_name }}</h3>
-                <!-- {% for key, value in things.items %}
-                    {% if key == order.id %} -->
-                        <!-- {% for thing in value %} -->
-                            <!-- <p>{{ thing }}</p> -->
-                        <!-- {% endfor %} -->
-                    <!-- {% endif %}
-                {% endfor %} -->
         {% endfor %}
     {% elif customer.id == NULL %}
         <p>Нет такого клиента</p>

@@ -68,17 +68,9 @@ def orders_view(request):
 
 
 def customer_orders_view(request, customer_id: int,filter_days: int):
-    # filter_days = 2
-    # period = '2024-01-29 18:40:00.517886+00:00' 
-    # things = {}
     things = []
     user = Customer.objects.filter(pk=customer_id).first()
-    # orders = Order.objects.filter(customer=user).all()
-    # date_low_lim = (dt.now() - timedelta(filter_days-1)).strftime("%Y-%m-%d")
     date_low_lim = (dt.now() - timedelta(filter_days))
-    # print(date_low_lim)
-    # print(dt.now())
-    # print(timedelta(filter_days-1))
     orders = Order.objects.filter(customer=user).filter(order_date__gt=date_low_lim).order_by('order_date')
     context ={
         'user': user, 
@@ -86,12 +78,9 @@ def customer_orders_view(request, customer_id: int,filter_days: int):
         'things': things
     }
     for order in orders:
-        # things[order.id] = order.thing.thing_name
         things.append(order.thing.thing_name)
         print(order.order_date)
         print(things)
         print(order.thing.thing_name)
-        # things = order.thing
-        # things[order.id] = str(order.thing.thing_name).replace('<QuerySet [<', '').replace('>]>', '').split('>, <')
 
     return render(request, 'hwapp/customer_orders.html', context=context)
