@@ -4,6 +4,8 @@ from django.http import HttpResponse
 import logging
 from .models import Customer, Thing, Order
 from datetime import datetime as dt, timedelta
+from .forms import AddThingPhoto
+from django.shortcuts import render, get_object_or_404, redirect
 
 logger = logging.getLogger(__name__)     
 
@@ -84,3 +86,22 @@ def customer_orders_view(request, customer_id: int,filter_days: int):
         print(order.thing.thing_name)
 
     return render(request, 'hwapp/customer_orders.html', context=context)
+
+
+def add_thing_image(request):
+    if request.method == 'POST':
+        # print(f'{request.POST=}')
+
+        form = AddThingPhoto(request.POST, request.FILES)
+        if form.is_valid():
+            # print(f'{request.POST=}')
+            thing_pk = int(form.cleaned_data['thing'])
+            thing = get_object_or_404(Thing, pk=thing_pk)
+            thing.thing_image = form.cleaned_data['p_image']
+            thing.save()
+    else:
+        form = AddThingPhoto()
+    return render(request,
+                  'homewrk_02/sm02_edit_products.html',
+                  {'title': 'Add product photo', 'form': form, }
+                  )

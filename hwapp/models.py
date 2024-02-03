@@ -38,10 +38,11 @@ class Thing(models.Model):
     price = models.IntegerField(default=0)
     quantity = models.IntegerField()
     thing_added_date = models.DateTimeField(auto_now_add=True)
+    thing_image = models.ImageField(upload_to="images/")
 
 
     def __str__(self):
-        return f'Thing: {self.thing_name}, description: {self.description}, price: {self.price}, quantity: {self.quantity}, thing_added_date: {self.thing_added_date}'
+        return f'Thing: {self.thing_name}, description: {self.description}, price: {self.price}, quantity: {self.quantity}, thing_added_date: {self.thing_added_date}, thing_image: {self.thing_image}'
 
 
 class Order(models.Model):

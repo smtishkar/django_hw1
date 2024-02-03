@@ -8,5 +8,6 @@ urlpatterns = [
     path('customers', views.customers_view, name='customers'),
     path('things', views.things_view, name='things'),
     path('orders', views.orders_view, name='orders'),
-    path('customer_orders/<int:customer_id>/<int:filter_days>', views.customer_orders_view, name='customer_orders')
+    path('customer_orders/<int:customer_id>/<int:filter_days>', views.customer_orders_view, name='customer_orders'),
+    path('add_thing_image/', views.add_thing_image, name='add_thing_image'),
 ]
