@@ -7,7 +7,6 @@ from datetime import datetime as dt, timedelta
 from .forms import AddThingPhoto
 from django.shortcuts import render, get_object_or_404, redirect
 from django.core.files.storage import FileSystemStorage
-
 logger = logging.getLogger(__name__)
 
 
