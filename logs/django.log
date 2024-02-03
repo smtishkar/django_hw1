@@ -1461,3 +1461,462 @@ TypeError: customer_orders_view() missing 1 required positional argument: 'perio
 [INFO    :             django.server] - 2024-02-01 17:29:55,514 : log_message @ 0212: "GET /customer_orders/2/1 HTTP/1.1" 200 266
 [INFO    :             django.server] - 2024-02-01 17:30:00,924 : log_message @ 0212: "GET /customer_orders/2/5 HTTP/1.1" 200 938
 [INFO    :   django.utils.autoreload] - 2024-02-03 12:09:49,107 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 12:17:53,842 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 12:18:35,313 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:13:02,754 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:27:01,598 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-03 14:27:12,785 : log_message @ 0212: "GET /customer_orders/2/5 HTTP/1.1" 200 257
+[WARNING :            django.request] - 2024-02-03 14:27:26,713 : log_response @ 0241: Not Found: /add_imgae
+[WARNING :             django.server] - 2024-02-03 14:27:26,715 : log_message @ 0212: "GET /add_imgae HTTP/1.1" 404 3373
+[WARNING :            django.request] - 2024-02-03 14:27:30,904 : log_response @ 0241: Not Found: /add_image
+[WARNING :             django.server] - 2024-02-03 14:27:30,906 : log_message @ 0212: "GET /add_image HTTP/1.1" 404 3373
+[INFO    :             django.server] - 2024-02-03 14:27:40,914 : log_message @ 0212: "GET /add_thing_image HTTP/1.1" 301 0
+[INFO    :             django.server] - 2024-02-03 14:27:41,093 : log_message @ 0212: "GET /add_thing_image/ HTTP/1.1" 200 751
+[INFO    :             django.server] - 2024-02-03 14:28:00,908 : log_message @ 0212: "POST /add_thing_image/ HTTP/1.1" 200 830
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:32:13,924 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:32:33,606 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:32:35,741 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-03 14:32:42,617 : log_message @ 0212: "POST /add_thing_image/ HTTP/1.1" 200 1708
+[ERROR   :            django.request] - 2024-02-03 14:33:16,155 : log_response @ 0241: Internal Server Error: /add_thing_image/
+Traceback (most recent call last):
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py", line 98, in add_thing_image
+    thing_pk = int(form.cleaned_data['thing'])
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'thing'
+[ERROR   :             django.server] - 2024-02-03 14:33:16,167 : log_message @ 0212: "POST /add_thing_image/ HTTP/1.1" 500 69760
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:35:07,718 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:35:09,185 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:35:17,035 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:35:18,897 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:35:29,214 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:35:30,868 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:35:47,914 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:35:49,471 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:35:52,537 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:35:53,989 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:36:11,165 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:36:13,091 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:36:15,349 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:36:16,791 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:36:19,823 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:36:21,279 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:36:22,871 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:36:24,350 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:36:34,916 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:36:36,961 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:36:43,303 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:36:44,976 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:36:48,944 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:36:50,641 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:37:03,301 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:37:04,909 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:37:14,247 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:37:15,834 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:37:21,936 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:37:23,292 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:37:28,337 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:37:29,723 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:37:35,901 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:37:37,331 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:37:44,741 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:37:46,155 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:37:49,290 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:37:50,976 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:37:52,401 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:37:54,017 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:37:55,513 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:37:56,661 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:38:00,965 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:38:02,462 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:38:07,616 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:38:09,074 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:38:17,516 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:38:19,383 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:38:21,471 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:38:23,861 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:38:46,957 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:38:48,388 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-02-03 14:38:58,208 : log_response @ 0241: Internal Server Error: /add_thing_image/
+Traceback (most recent call last):
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: add_thing_image() missing 1 required positional argument: 'id_product'
+[ERROR   :             django.server] - 2024-02-03 14:38:58,214 : log_message @ 0212: "POST /add_thing_image/ HTTP/1.1" 500 66064
+[ERROR   :            django.request] - 2024-02-03 14:39:04,697 : log_response @ 0241: Internal Server Error: /add_thing_image/
+Traceback (most recent call last):
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: add_thing_image() missing 1 required positional argument: 'id_product'
+[ERROR   :             django.server] - 2024-02-03 14:39:04,705 : log_message @ 0212: "POST /add_thing_image/ HTTP/1.1" 500 66064
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:40:54,498 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:40:56,504 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-03 14:41:05,431 : log_message @ 0212: "GET /add_thing_image/1 HTTP/1.1" 200 1296
+[ERROR   :            django.request] - 2024-02-03 14:41:16,892 : log_response @ 0241: Internal Server Error: /add_thing_image/1
+Traceback (most recent call last):
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'name_product'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py", line 114, in add_thing_image
+    thing.thing_name = request.POST["name_product"]
+                       ~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'name_product'
+[ERROR   :             django.server] - 2024-02-03 14:41:16,908 : log_message @ 0212: "POST /add_thing_image/1 HTTP/1.1" 500 79432
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:44:42,913 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-02-03 14:44:47,622 : log_response @ 0241: Internal Server Error: /add_thing_image/1
+Traceback (most recent call last):
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'name_product'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py", line 114, in add_thing_image
+    thing.thing_name = request.POST["name_product"]
+                       ~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'name_product'
+[ERROR   :             django.server] - 2024-02-03 14:44:47,632 : log_message @ 0212: "POST /add_thing_image/1 HTTP/1.1" 500 79432
+[INFO    :             django.server] - 2024-02-03 14:44:53,229 : log_message @ 0212: "GET /add_thing_image/2 HTTP/1.1" 200 1376
+[ERROR   :            django.request] - 2024-02-03 14:45:10,358 : log_response @ 0241: Internal Server Error: /add_thing_image/2
+Traceback (most recent call last):
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'name_product'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py", line 114, in add_thing_image
+    thing.thing_name = request.POST["name_product"]
+                       ~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'name_product'
+[ERROR   :             django.server] - 2024-02-03 14:45:10,375 : log_message @ 0212: "POST /add_thing_image/2 HTTP/1.1" 500 79418
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:58:35,945 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-03 14:58:37,230 : log_message @ 0212: "GET /add_thing_image/2 HTTP/1.1" 200 1375
+[ERROR   :            django.request] - 2024-02-03 14:58:51,455 : log_response @ 0241: Internal Server Error: /add_thing_image/2
+Traceback (most recent call last):
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'name_product'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py", line 114, in add_thing_image
+    thing.thing_name = request.POST["name_product"]
+                       ~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'name_product'
+[ERROR   :             django.server] - 2024-02-03 14:58:51,472 : log_message @ 0212: "POST /add_thing_image/2 HTTP/1.1" 500 79418
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:59:43,838 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 14:59:45,596 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-03 14:59:52,224 : log_message @ 0212: "GET /add_thing_image/2 HTTP/1.1" 200 1399
+[ERROR   :            django.request] - 2024-02-03 14:59:59,767 : log_response @ 0241: Internal Server Error: /add_thing_image/2
+Traceback (most recent call last):
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'name_product'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py", line 114, in add_thing_image
+    thing.thing_name = request.POST["name_product"]
+                       ~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'name_product'
+[ERROR   :             django.server] - 2024-02-03 14:59:59,783 : log_message @ 0212: "POST /add_thing_image/2 HTTP/1.1" 500 79415
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:00:34,414 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:00:36,187 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:00:38,155 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:00:39,737 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-03 15:00:41,569 : log_message @ 0212: "GET /add_thing_image/2 HTTP/1.1" 200 1399
+[ERROR   :            django.request] - 2024-02-03 15:00:49,374 : log_response @ 0241: Internal Server Error: /add_thing_image/2
+Traceback (most recent call last):
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'description_product'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py", line 115, in add_thing_image
+    thing.description = request.POST["description_product"]
+                        ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'description_product'
+[ERROR   :             django.server] - 2024-02-03 15:00:49,384 : log_message @ 0212: "POST /add_thing_image/2 HTTP/1.1" 500 79530
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:01:04,522 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:01:06,852 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-03 15:01:15,958 : log_message @ 0212: "GET /add_thing_image/2 HTTP/1.1" 200 1399
+[ERROR   :            django.request] - 2024-02-03 15:01:25,411 : log_response @ 0241: Internal Server Error: /add_thing_image/2
+Traceback (most recent call last):
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py", line 118, in add_thing_image
+    image = form.cleaned_data['image']
+            ~~~~~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'image'
+[ERROR   :             django.server] - 2024-02-03 15:01:25,418 : log_message @ 0212: "POST /add_thing_image/2 HTTP/1.1" 500 70584
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:05:13,717 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:05:14,405 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:05:17,988 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:05:18,676 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:05:36,011 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:05:36,705 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:05:40,211 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:05:41,058 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:05:46,713 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:05:47,565 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:05:50,283 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:05:52,310 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:05:53,788 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:05:54,652 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:05:56,120 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:05:56,842 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:05:58,293 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:05:58,936 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:06:01,441 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:06:02,079 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:06:11,929 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:06:12,891 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-03 15:06:18,434 : log_message @ 0212: "GET /add_thing_image/2 HTTP/1.1" 200 1399
+[ERROR   :            django.request] - 2024-02-03 15:06:25,535 : log_response @ 0241: Internal Server Error: /add_thing_image/2
+Traceback (most recent call last):
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'thing_image'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py", line 118, in add_thing_image
+    thing.thing_image = request.POST["thing_image"]
+                        ~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'thing_image'
+[ERROR   :             django.server] - 2024-02-03 15:06:25,541 : log_message @ 0212: "POST /add_thing_image/2 HTTP/1.1" 500 79519
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:08:50,951 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:08:51,741 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:08:54,282 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:08:54,967 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:09:14,243 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:09:14,995 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:10:02,438 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:10:03,032 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:10:09,825 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:10:10,725 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:10:13,223 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:10:13,901 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:10:19,761 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:10:20,474 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:10:38,714 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:10:39,445 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:10:40,692 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:10:41,415 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:10:42,703 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:10:43,327 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:10:46,680 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:10:47,496 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:11:00,597 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:11:01,184 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-03 15:11:05,591 : log_message @ 0212: "GET /add_thing_image/2 HTTP/1.1" 200 1399
+[ERROR   :            django.request] - 2024-02-03 15:11:13,143 : log_response @ 0241: Internal Server Error: /add_thing_image/2
+Traceback (most recent call last):
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'image'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py", line 121, in add_thing_image
+    image = request.FILES["image"]
+           ~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'image'
+[ERROR   :             django.server] - 2024-02-03 15:11:13,149 : log_message @ 0212: "POST /add_thing_image/2 HTTP/1.1" 500 79220
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:11:48,346 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:11:49,018 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:11:58,908 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:11:59,556 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:12:02,128 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:12:02,809 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:12:05,253 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:12:06,027 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-03 15:12:09,140 : log_message @ 0212: "GET /add_thing_image/2 HTTP/1.1" 200 1399
+[INFO    :               hwapp.views] - 2024-02-03 15:12:15,774 : add_thing_image @ 0129: Product 2 is changed successfully
+[ERROR   :            django.request] - 2024-02-03 15:12:15,843 : log_response @ 0241: Internal Server Error: /add_thing_image/2
+Traceback (most recent call last):
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py", line 130, in add_thing_image
+    return redirect("product", id_product=thing.id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\shortcuts.py", line 179, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\homeworks\venv\Lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'product' not found. 'product' is not a valid view function or pattern name.
+[ERROR   :             django.server] - 2024-02-03 15:12:15,851 : log_message @ 0212: "POST /add_thing_image/2 HTTP/1.1" 500 89847
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:20:03,893 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:20:05,095 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-03 15:20:09,630 : log_message @ 0212: "GET /add_thing_image/2 HTTP/1.1" 200 1399
+[INFO    :               hwapp.views] - 2024-02-03 15:20:16,550 : add_thing_image @ 0129: Product f is changed successfully
+[INFO    :             django.server] - 2024-02-03 15:20:16,557 : log_message @ 0212: "POST /add_thing_image/2 HTTP/1.1" 200 1430
+[INFO    :               hwapp.views] - 2024-02-03 15:20:23,256 : add_thing_image @ 0129: Product f is changed successfully
+[INFO    :             django.server] - 2024-02-03 15:20:23,262 : log_message @ 0212: "POST /add_thing_image/2 HTTP/1.1" 200 1430
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:23:00,829 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:23:01,662 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-03 15:23:10,582 : log_message @ 0212: "GET /add_thing_image/2 HTTP/1.1" 200 1399
+[INFO    :               hwapp.views] - 2024-02-03 15:23:32,847 : add_thing_image @ 0129: Product 1 is changed successfully
+[INFO    :             django.server] - 2024-02-03 15:23:32,852 : log_message @ 0212: "POST /add_thing_image/2 HTTP/1.1" 200 1430
+[INFO    :               hwapp.views] - 2024-02-03 15:23:40,236 : add_thing_image @ 0129: Product 1 is changed successfully
+[INFO    :             django.server] - 2024-02-03 15:23:40,240 : log_message @ 0212: "POST /add_thing_image/2 HTTP/1.1" 200 1430
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:24:55,922 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:24:56,633 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:25:00,172 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:25:00,762 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:25:14,724 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:25:16,431 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:25:18,976 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:25:20,675 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:25:23,134 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:25:23,755 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:25:32,199 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:25:32,846 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-03 15:25:36,230 : log_message @ 0212: "GET /add_thing_image/2 HTTP/1.1" 200 1399
+[INFO    :               hwapp.views] - 2024-02-03 15:25:45,053 : add_thing_image @ 0130: Product 7 is changed successfully
+[INFO    :             django.server] - 2024-02-03 15:25:45,059 : log_message @ 0212: "POST /add_thing_image/2 HTTP/1.1" 200 1430
+[INFO    :             django.server] - 2024-02-03 15:27:54,099 : log_message @ 0212: "GET /add_thing_image/3 HTTP/1.1" 200 1399
+[INFO    :               hwapp.views] - 2024-02-03 15:28:12,706 : add_thing_image @ 0130: Product Ручка is changed successfully
+[INFO    :             django.server] - 2024-02-03 15:28:12,711 : log_message @ 0212: "POST /add_thing_image/3 HTTP/1.1" 200 1468
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:29:43,644 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:29:44,370 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:29:47,108 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:29:47,822 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-03 15:29:50,347 : log_message @ 0212: "GET /add_thing_image/3 HTTP/1.1" 200 1395
+[INFO    :             django.server] - 2024-02-03 15:29:52,516 : log_message @ 0212: "GET /add_thing_image/3 HTTP/1.1" 200 1395
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:31:47,455 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:31:48,283 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:32:13,835 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:32:14,683 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:32:26,639 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:32:27,342 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:32:37,131 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:32:37,989 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:32:39,481 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:32:40,536 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:32:48,341 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:32:49,337 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:32:52,948 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:32:53,672 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:32:57,225 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:32:57,928 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:33:18,141 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:33:18,865 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:33:29,749 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\hwapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-03 15:33:30,563 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-03 15:34:36,501 : log_message @ 0212: "GET /add_thing_image/1 HTTP/1.1" 200 1388
+[INFO    :               hwapp.views] - 2024-02-03 15:34:51,955 : add_thing_image @ 0107: Product dtom is changed successfully
+[INFO    :             django.server] - 2024-02-03 15:34:51,960 : log_message @ 0212: "POST /add_thing_image/1 HTTP/1.1" 200 1432

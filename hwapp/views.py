@@ -6,8 +6,10 @@ from .models import Customer, Thing, Order
 from datetime import datetime as dt, timedelta
 from .forms import AddThingPhoto
 from django.shortcuts import render, get_object_or_404, redirect
+from django.core.files.storage import FileSystemStorage
 
-logger = logging.getLogger(__name__)     
+logger = logging.getLogger(__name__)
+
 
 def index(request):
     maingpage = """
@@ -34,7 +36,7 @@ def index(request):
 
 
 def about_company(request):
-    about_company_page="""
+    about_company_page = """
         <header>
             <a href="">Главная страница</a>
             <a href="">О Компании</a>
@@ -47,15 +49,13 @@ def about_company(request):
     logger.info(f'Страница "О Компании" успешно открыта')
     return HttpResponse(about_company_page)
 
+
 def customers_view(request):
     customers = Customer.objects.all()
     context = {
         'customers': customers
     }
     return render(request, 'hwapp/customers.html', context=context)
-    # res_str = '<br>'.join([str(customer) for customer in customers])
-    # return HttpResponse(res_str)
-
 
 
 def things_view(request):
@@ -63,20 +63,22 @@ def things_view(request):
     res_str = '<br>'.join([str(thing) for thing in things])
     return HttpResponse(res_str)
 
+
 def orders_view(request):
     orders = Order.objects.all()
     res_str = '<br>'.join([str(order) for order in orders])
     return HttpResponse(res_str)
 
 
-def customer_orders_view(request, customer_id: int,filter_days: int):
+def customer_orders_view(request, customer_id: int, filter_days: int):
     things = []
     user = Customer.objects.filter(pk=customer_id).first()
     date_low_lim = (dt.now() - timedelta(filter_days))
-    orders = Order.objects.filter(customer=user).filter(order_date__gt=date_low_lim).order_by('order_date')
-    context ={
-        'user': user, 
-        'orders': orders, 
+    orders = Order.objects.filter(customer=user).filter(
+        order_date__gt=date_low_lim).order_by('order_date')
+    context = {
+        'user': user,
+        'orders': orders,
         'things': things
     }
     for order in orders:
@@ -88,20 +90,25 @@ def customer_orders_view(request, customer_id: int,filter_days: int):
     return render(request, 'hwapp/customer_orders.html', context=context)
 
 
-def add_thing_image(request):
-    if request.method == 'POST':
-        # print(f'{request.POST=}')
-
+def add_thing_image(request, id_product: int):
+    thing = get_object_or_404(Thing, pk=id_product)
+    if request.method == "POST":
         form = AddThingPhoto(request.POST, request.FILES)
         if form.is_valid():
-            # print(f'{request.POST=}')
-            thing_pk = int(form.cleaned_data['thing'])
-            thing = get_object_or_404(Thing, pk=thing_pk)
-            thing.thing_image = form.cleaned_data['p_image']
+            thing.thing_name = request.POST["thing_name"]
+            thing.description = request.POST["description"]
+            thing.price = request.POST["price"]
+            thing.quantity = request.POST["quantity"]
+            thing_image = request.FILES["thing_image"]
+            fs = FileSystemStorage()
+            fs.save(thing_image.name, thing_image)
+            thing.thing_image = thing_image.name
             thing.save()
+            logger.info(f"Product {thing.thing_name} is changed successfully")
     else:
         form = AddThingPhoto()
-    return render(request,
-                  'homewrk_02/sm02_edit_products.html',
-                  {'title': 'Add product photo', 'form': form, }
-                  )
+
+    context = {
+        "form": form,
+    }
+    return render(request, "hwapp/add_image.html", context=context)
