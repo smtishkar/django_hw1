@@ -2988,3 +2988,27 @@ django.core.exceptions.FieldDoesNotExist: Thing has no field named 'contetent'
 [INFO    :             django.server] - 2024-02-07 23:04:08,532 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
 [INFO    :             django.server] - 2024-02-07 23:04:10,763 : log_message @ 0212: "GET /admin/hwapp/thing/2/change/ HTTP/1.1" 200 12893
 [INFO    :             django.server] - 2024-02-07 23:04:10,780 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[INFO    :   django.utils.autoreload] - 2024-02-11 16:51:18,005 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[WARNING :            django.request] - 2024-02-11 16:51:36,607 : log_response @ 0241: Not Found: /index/
+[WARNING :             django.server] - 2024-02-11 16:51:36,609 : log_message @ 0212: "GET /index/ HTTP/1.1" 404 13302
+[INFO    :             django.server] - 2024-02-11 16:51:36,852 : log_message @ 0212: "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+[INFO    :             django.server] - 2024-02-11 16:51:36,900 : log_message @ 0212: "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13578
+[INFO    :             django.server] - 2024-02-11 16:51:36,955 : log_message @ 0212: "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+[INFO    :             django.server] - 2024-02-11 16:51:37,060 : log_message @ 0212: "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+[INFO    :               hwapp.views] - 2024-02-11 16:51:58,697 : about_company @ 0048: Страница "О Компании" успешно открыта
+[INFO    :             django.server] - 2024-02-11 16:51:58,771 : log_message @ 0212: "GET /about/ HTTP/1.1" 200 365
+[INFO    :               hwapp.views] - 2024-02-11 16:52:03,145 : about_company @ 0048: Страница "О Компании" успешно открыта
+[INFO    :             django.server] - 2024-02-11 16:52:03,213 : log_message @ 0212: "GET /about/ HTTP/1.1" 200 365
+[INFO    :               hwapp.views] - 2024-02-11 16:52:06,752 : about_company @ 0048: Страница "О Компании" успешно открыта
+[INFO    :             django.server] - 2024-02-11 16:52:06,824 : log_message @ 0212: "GET /about/ HTTP/1.1" 200 365
+[INFO    :               hwapp.views] - 2024-02-11 16:52:08,493 : about_company @ 0048: Страница "О Компании" успешно открыта
+[INFO    :             django.server] - 2024-02-11 16:52:08,534 : log_message @ 0212: "GET /about/ HTTP/1.1" 200 365
+[INFO    :               hwapp.views] - 2024-02-11 16:52:14,997 : about_company @ 0048: Страница "О Компании" успешно открыта
+[INFO    :             django.server] - 2024-02-11 16:52:15,037 : log_message @ 0212: "GET /about/ HTTP/1.1" 200 365
+[INFO    :             django.server] - 2024-02-11 16:53:04,410 : log_message @ 0212: "GET /customers HTTP/1.1" 200 11519
+[INFO    :             django.server] - 2024-02-11 16:53:04,435 : log_message @ 0212: "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-11 16:53:04,436 : log_message @ 0212: "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-11 16:53:04,442 : log_message @ 0212: "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-02-11 16:53:04,458 : log_message @ 0212: "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+[INFO    :   django.utils.autoreload] - 2024-02-11 16:57:20,402 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\homeworks\homework_project\homework_project\settings.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-11 16:57:23,127 : run_with_reloader @ 0668: Watching for file changes with StatReloader
